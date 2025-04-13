@@ -18,7 +18,7 @@ def generate_bus_schedule(start_time_str):
         "Bowling Club, Stand A"
     ]
     # Updated time intervals between each stop
-    intervals = [1, 3, 1, 1, 1, 1, 1]  # intervals in minutes for each pair of stops
+    intervals = [2, 3, 1, 1, 1, 1, 1]  # intervals in minutes for each pair of stops
     schedule = []
     
     current_time = start_time
