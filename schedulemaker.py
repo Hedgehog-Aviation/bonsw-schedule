@@ -78,7 +78,7 @@ def main():
     tk.Label(root, text="Enter Start Time (HH:MM, 24hr):", font=("Arial", 12)).pack(pady=10)
     time_entry = tk.Entry(root, font=("Arial", 12), justify='center')
     time_entry.pack(pady=5)
-    time_entry.insert(0)  # default value
+    time_entry.insert(0, "00:00")  # default value
 
     submit_button = tk.Button(root, text="Generate Schedule", font=("Arial", 12),
                               command=lambda: on_submit(time_entry, root))
