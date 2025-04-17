@@ -9,8 +9,8 @@ def generate_bus_schedule(start_time_str, route_number):
     start_time = datetime.strptime(start_time_str, "%H:%M")
 
     dummy_routes = {
-        "700": (["A", "B", "C", "D", "E"], [0, 1, 1, 1, 1]),
-        "701": (["A", "B", "C", "D", "E"], [0, 1, 1, 1, 1]),
+        "700": (["Depot", "Southern Terminal Stand A", "Kangaroo Dr before Southern Cct", "Banksia Rd after Kangaroo Dr", "Banksia Rd at Magpie Cres", "Magpie Cres", "Galah Rd", "Galah Rd at Gum Pl", "Sailing Club, Stand A"], [3, 1, 1, 1, 1, 1, 1, 1, 1]),
+        "701": (["Depot", "Southern Terminal, Stand B", "Kangaroo Dr before Southern Cct", "Banksia Rd after Kangaroo Dr", "Banksia Rd at Magpie Cres", "Magpie Cres before Currawong Rd", "Gambit Dr at Waratah Cres", "Bowling Club, stand B"], [3, 1, 1, 1, 1 ,2, 1, 1]),
         "702": (["Depot", "Southern Terminal Stand A", "Shopping Centre Stand B",
                   "Wallaby Dr after Eucalyptus Dr", "Wallaby Dr at Dharug St",
                   "Cockatoo St at Ironbark Rd", "Telapea Cres before Kaartdijin Rd",
